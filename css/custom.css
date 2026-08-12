@@ -368,12 +368,15 @@ a:focus {
 /************************************/
 
 header.main-header {
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 	max-width: 1300px;
-	background: #ffffff00;
+	background: transparent;
 	border-bottom: 1px solid transparent;
 	border-radius: 100px;
-	padding: 0;
+	padding: 30px 20px 0;
 	margin: 0 auto;
 	z-index: 100;
 }
@@ -382,7 +385,7 @@ header.main-header .header-sticky {
 	position: relative;
 	top: 0;
 	padding: 0 10px 0 25px;
-	margin-top: 30px;
+	margin-top: 0;
 	z-index: 100;
 }
 
@@ -689,8 +692,8 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 150px 0;
-	margin-top: -117px;
+	padding: 180px 0 150px;
+	margin-top: 0;
 }
 
 .hero::before {
@@ -2795,13 +2798,13 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 	}
 
 	header.main-header {
-		padding: 0;
-		margin: 0 20px;
+		padding: 20px 15px 0;
+		margin: 0 auto;
 	}
 
 	header.main-header .header-sticky {
 		padding: 20px 10px;
-		margin: 20px 0 0;
+		margin: 0;
 	}
 
 	header.main-header .header-sticky.active {
@@ -2842,7 +2845,8 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 	}
 
 	.hero {
-		margin-top: -98px;
+		margin-top: 0;
+		padding-top: 140px;
 	}
 
 	.hero .section-title h1 {
@@ -3261,12 +3265,13 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 @media only screen and (max-width: 767px) {
 
 	header.main-header {
-		margin: 0 15px;
+		padding: 15px 10px 0;
+		margin: 0 auto;
 	}
 
 	header.main-header .header-sticky {
 		padding: 15px 5px;
-		margin: 20px 0 0;
+		margin: 0;
 	}
 
 	.slicknav_arrow:after {
@@ -3298,6 +3303,10 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 
 	.section-title h2 {
 		font-size: 30px;
+	}
+
+	.hero {
+		margin-top: -20px;
 	}
 
 	.hero .section-title h1 {
