@@ -840,7 +840,7 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 }
 
 .home-about-left .home-about-img figure {
-	width: 48%;
+	width: 75%;
 }
 
 .home-about-left .home-about-img figure img {
@@ -3838,4 +3838,196 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 	color: #ffffff;
 	transform: scale(1.1);
 	box-shadow: 0px 6px 16px rgba(37, 211, 102, 0.4);
+}
+
+/*----------------------------------------------------------------------------------------
+* Monthly Subscription Special Offer Section CSS
+*---------------------------------------------------------------------------------------- */
+.monthly-offer-section {
+	padding: 70px 0;
+	background-color: var(--dark-background);
+}
+
+.offer-box {
+	background: linear-gradient(135deg, #141414 0%, #222222 100%);
+	border: 2px solid var(--secondary-color);
+	border-radius: 30px;
+	padding: 50px 45px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 15px 35px rgba(254, 188, 48, 0.15);
+}
+
+.offer-badge {
+	display: inline-block;
+	background-color: var(--secondary-color);
+	color: #000000;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 6px 18px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.offer-title {
+	font-family: var(--accent-font);
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.3;
+	margin-bottom: 15px;
+}
+
+.offer-title span {
+	color: var(--secondary-color);
+	background: -webkit-linear-gradient(45deg, #FEBC30, #FFD700);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.offer-description {
+	color: #d3d3d3;
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 25px;
+}
+
+.offer-features {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 30px;
+}
+
+.offer-features li {
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.offer-features li i {
+	color: var(--secondary-color);
+	font-size: 18px;
+}
+
+.offer-cta {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.btn-claim-offer {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.coupon-code {
+	color: #d3d3d3;
+	font-size: 15px;
+	background: rgba(255, 255, 255, 0.08);
+	padding: 10px 18px;
+	border-radius: 12px;
+	border: 1px dashed var(--secondary-color);
+}
+
+.coupon-code strong {
+	color: var(--secondary-color);
+	letter-spacing: 1px;
+}
+
+.offer-card-graphic {
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.offer-img {
+	width: 100%;
+	max-width: 360px;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+	object-fit: cover;
+}
+
+.discount-badge-circle {
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	width: 105px;
+	height: 105px;
+	background-color: var(--secondary-color);
+	color: #000000;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 8px 20px rgba(254, 188, 48, 0.4);
+	animation: pulse-discount 2s infinite ease-in-out;
+	z-index: 2;
+}
+
+.discount-badge-circle .save-text {
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.discount-badge-circle .amount {
+	font-size: 25px;
+	font-weight: 900;
+	line-height: 1;
+	font-family: var(--accent-font);
+}
+
+.discount-badge-circle .subtext {
+	font-size: 11px;
+	font-weight: 800;
+}
+
+@keyframes pulse-discount {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.08);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 991px) {
+	.offer-box {
+		padding: 35px 25px;
+	}
+
+	.offer-title {
+		font-size: 28px;
+	}
+
+	.offer-card-graphic {
+		margin-top: 35px;
+	}
+
+	.discount-badge-circle {
+		top: -15px;
+		right: 10px;
+		width: 90px;
+		height: 90px;
+	}
+
+	.discount-badge-circle .amount {
+		font-size: 21px;
+	}
 }
