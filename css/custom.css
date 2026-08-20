@@ -4057,3 +4057,56 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 	border-radius: 15px;
 	display: block;
 }
+
+.service-area-locations {
+	margin-top: 30px;
+	padding: 25px 20px;
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.locations-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--accent-color);
+	margin-bottom: 20px;
+}
+
+.locations-title i {
+	color: #e63946;
+}
+
+.location-tags {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 12px;
+}
+
+.location-badge {
+	background-color: var(--background-color);
+	color: var(--accent-color);
+	font-size: 15px;
+	font-weight: 600;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 1px solid #e2ddd3;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	transition: var(--transition);
+}
+
+.location-badge i {
+	color: #27ae60;
+	font-size: 14px;
+}
+
+.location-badge:hover {
+	background-color: var(--secondary-color);
+	color: #000000;
+	border-color: var(--secondary-color);
+	transform: translateY(-3px);
+	box-shadow: 0 5px 15px rgba(254, 188, 48, 0.4);
+}
