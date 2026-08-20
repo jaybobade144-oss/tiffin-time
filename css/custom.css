@@ -4031,3 +4031,29 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 		font-size: 21px;
 	}
 }
+
+/* Service Area Section CSS */
+.service-area-section {
+	padding: 80px 0;
+	background-color: var(--background-color);
+}
+
+.service-area-map-box {
+	background: #ffffff;
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+	overflow: hidden;
+	transition: var(--transition);
+}
+
+.service-area-map-box:hover {
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.service-area-map-box img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	display: block;
+}
