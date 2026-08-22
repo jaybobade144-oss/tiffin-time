@@ -4035,20 +4035,30 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 /* Service Area Section CSS */
 .service-area-section {
 	padding: 80px 0;
-	background-color: var(--background-color);
+	background-color: #000000;
+}
+
+.service-area-section .section-title h3 {
+	color: var(--secondary-color);
+}
+
+.service-area-section .section-title h2 {
+	color: #ffffff;
 }
 
 .service-area-map-box {
-	background: #ffffff;
+	background: #141414;
 	padding: 15px;
 	border-radius: 20px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+	border: 1px solid #282828;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
 	transition: var(--transition);
 }
 
 .service-area-map-box:hover {
-	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+	border-color: #383838;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
 }
 
 .service-area-map-box img {
@@ -4061,20 +4071,21 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 .service-area-locations {
 	margin-top: 30px;
 	padding: 25px 20px;
-	background: #ffffff;
+	background: #141414;
 	border-radius: 16px;
-	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+	border: 1px solid #282828;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
 .locations-title {
 	font-size: 20px;
 	font-weight: 700;
-	color: var(--accent-color);
+	color: #ffffff;
 	margin-bottom: 20px;
 }
 
 .locations-title i {
-	color: #e63946;
+	color: #ff4d4d;
 }
 
 .location-tags {
@@ -4085,13 +4096,13 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 }
 
 .location-badge {
-	background-color: var(--background-color);
-	color: var(--accent-color);
+	background-color: #222222;
+	color: #ffffff;
 	font-size: 15px;
 	font-weight: 600;
 	padding: 10px 20px;
 	border-radius: 30px;
-	border: 1px solid #e2ddd3;
+	border: 1px solid #333333;
 	display: inline-flex;
 	align-items: center;
 	gap: 8px;
@@ -4099,7 +4110,7 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 }
 
 .location-badge i {
-	color: #27ae60;
+	color: #2ecc71;
 	font-size: 14px;
 }
 
@@ -4109,4 +4120,5 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 	border-color: var(--secondary-color);
 	transform: translateY(-3px);
 	box-shadow: 0 5px 15px rgba(254, 188, 48, 0.4);
-}
+}
+
