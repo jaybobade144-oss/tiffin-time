@@ -4035,7 +4035,7 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 /* Service Area Section CSS */
 .service-area-section {
 	padding: 80px 0;
-	background-color: #000000;
+	background-color: #c75620;
 }
 
 .service-area-section .section-title h3 {
@@ -4047,7 +4047,7 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 }
 
 .service-area-map-box {
-	background: #141414;
+	background: #fff;
 	padding: 15px;
 	border-radius: 20px;
 	border: 1px solid #282828;
@@ -4071,7 +4071,7 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 .service-area-locations {
 	margin-top: 30px;
 	padding: 25px 20px;
-	background: #141414;
+	background: #ffffff;
 	border-radius: 16px;
 	border: 1px solid #282828;
 	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
@@ -4080,7 +4080,7 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 .locations-title {
 	font-size: 20px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #000;
 	margin-bottom: 20px;
 }
 
@@ -4096,8 +4096,8 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 }
 
 .location-badge {
-	background-color: #222222;
-	color: #ffffff;
+	background-color: #F7F4ED;
+	color: #000;
 	font-size: 15px;
 	font-weight: 600;
 	padding: 10px 20px;
@@ -4121,4 +4121,3 @@ header.main-header .header-sticky.active .main-menu ul li.highlighted-menu a:hov
 	transform: translateY(-3px);
 	box-shadow: 0 5px 15px rgba(254, 188, 48, 0.4);
 }
-
